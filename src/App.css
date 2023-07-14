@@ -1,0 +1,75 @@
+.App{
+  margin: auto;
+  text-align: center;
+  padding: 20px
+}
+
+.centerDiv{
+  display: flex;
+  justify-content: center;
+}
+
+#slotTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#slotTable td, #slotTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#slotTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#slotTable tr:hover {background-color: #ddd;}
+
+#slotTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#171f6d;
+  color: white;
+}
+
+.fa-stack {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.common-button {
+  background-color:orange;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.full-button {
+  background-color:red;
+  color: white;
+  border: 2px solid red;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 5px;
+  margin:10px;
+}
+
+
+
